@@ -1,0 +1,168 @@
+
+*{
+text-decoration: none;
+
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, button {
+  list-style-type: none;
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+html {
+ 
+  height: 190%;
+  margin: 0;
+  background-image: url(./2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: space-between; /* Cela aide à pousser le pied de page vers le bas */
+
+}
+
+ 
+
+.header_container  {
+  /* background-color: rgb(221, 221, 229); */
+  color: rgb(52, 147, 147);
+  position: fixed;
+  margin-left:1%;
+  margin-right:30% ;
+  width: 98%;
+ height: 6%;
+ margin-top: 0;
+}
+@media screen and (max-width:1200px) {
+  .header_container {
+    background-color: transparent;
+    flex-direction: column;
+    margin-left: 0;
+   
+
+  }
+}
+ .footer_container{
+
+  /* background-color: rgb(209, 213, 207); */
+  color: rgb(52, 147, 147);
+ position: relative;
+  margin-left:1%;
+  margin-right:30% ;
+  margin-bottom: 1;
+  width: 98%;
+  height: 10%;
+  bottom : 1%;
+
+ }
+ @media screen and (max-width:1200px) {
+  .footer_container {
+    
+    flex-direction: column;
+    margin-right: 0;
+  }
+}
+  
+
+
+
+.presentation_container {
+  background-color: red;
+  position: center;
+ 
+}
+
+.presentation {
+  color: rgb(246, 247, 247);
+  position: absolute;
+  margin-left: 36%;
+  text-align: center;
+  text-wrap: balance;
+}
+
+@media screen and (max-width:960px) {
+  .presentation {
+    align-items: center;
+    text-wrap: balance;
+    margin-left: 31%
+  }
+}
+
+@media screen and (max-width:576px) {
+  .presentation {
+    align-items: center;
+    text-wrap: balance;
+    margin-left: 21%
+  }
+}
+
+
+
+
+
+.little_menu { 
+  display:none;
+  width: 35px;
+  position: absolute;
+  top: 50px;
+  left:50px ;
+
+}
+
+.header_nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform:uppercase;
+  border: 3px solid rgb(247, 243, 243);
+
+}
+.footer_nav ul{
+display: flex;
+list-style-type: none;
+justify-content: space-evenly;
+align-items: center;
+text-transform:uppercase;
+border: 3px solid rgb(247, 243, 243);
+
+}
+
+@media screen and (max-width:960px) {
+  .header_nav ul , .footer_nav ul {
+    display: none;
+  }
+.little_menu {
+  display: block;
+}}
+
+.little_menu2 { 
+  display:none;
+  width: 35px;
+  position: absolute;
+bottom: 0%;
+  left:50px ;
+
+}  
+
+  @media screen and (max-width:960px) {
+  .little_menu2 {
+    display: block;
+  }}
+
+
+
+
