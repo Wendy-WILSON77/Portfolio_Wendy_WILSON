@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Cinzel+Decorative:wght@400;700;900&family=Dr+Sugiyama&family=Gwendolyn:wght@400;700&family=Kaushan+Script&family=Monoton&family=Montez&family=Passions+Conflict&display=swap');
+
+*{
+text-decoration: none;
+
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, button {
+  list-style-type: none;
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+
+html {
+  font-family: Cinzel Decorative ;
+  height: 190%;
+  margin: 0;
+  background-image: url(./images/2.webp);
+  background-color: rgb(20, 21, 20);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: space-between; /* Cela aide à pousser le pied de page vers le bas */
+}
+
+ 
+
+.header_container  {
+ 
+    position:absolute;
+  margin-left:1%;
+  margin-right:30% ;
+  width: 98%;
+ height: 10%;
+ margin-top: 0;
+font-weight: 900;
+font-size: 20px;
+z-index: 1000;
+top:0;
+
+}
+
+ .footer_container{
+  color: rgb(249, 251, 251);
+ position: relative;
+  margin-left:1%;
+  margin-right:30% ;
+  margin-bottom: 1;
+  width: 98%;
+  height: 10%;
+  bottom : 1%;
+
+ }
+ @media screen and (max-width:1200px) {
+  .footer_container {
+    flex-direction: column;
+    margin-right: 0;
+  }
+}
+  
+.presentation_container {
+  position: center;
+  width: 1px;
+ }
+
+@media screen and (max-width:526px) {
+  .presentation_container{
+    align-items: center;
+    text-wrap: balance;
+    margin-left: 1%
+  }
+}
+
+.separation_barre {
+color: aliceblue;
+font-weight:900;
+}
+h1{
+  font-size: 35px;
+}
+@media screen and (max-width:379px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+h2 , h3 {
+  font-size: 25px;
+  color: #115f55;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+@media screen and (max-width:379px) {
+  h2, h3 {
+    font-size: 20px;
+  }}
+
+.mail{
+font-size: 20px ;
+}
+@media screen and (max-width:1200px) {
+  .mail {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width:988px) {
+  .mail {
+  font-size:15px ;
+  }
+}
+@media screen and (max-width:379px) {
+  .mail {
+    font-size: 12px;
+  }}
+
+.presentation {
+  color: rgb(246, 247, 247);
+  position: absolute;
+  margin-left: 35%;
+  text-align: center;
+  text-wrap: balance;
+  line-height: 150%;
+ }
+@media screen and (max-width:1200px) {
+  .presentation {
+    align-items: center;
+    text-wrap: balance;
+    margin-left: 33%;
+    line-height: 100%;
+  }
+}
+
+@media screen and (max-width:988px) {
+  .presentation {
+    align-items: center;
+    text-wrap: balance;
+    margin-left: 35%
+  }
+}
+@media screen and (max-width:800px) {
+  .presentation {
+    align-items: center;
+    text-wrap: balance;
+    margin-left: 32%
+  }
+}
+
+@media screen and (max-width:670px) {
+  .presentation {
+    align-items: center;
+    text-wrap: balance;
+    margin-left: 29%
+  }
+}
+@media screen and (max-width:564px) {
+  .presentation {
+    align-items: center;
+    text-wrap: balance;
+    margin-left: 24%
+  }
+}
+@media screen and (max-width:468px) {
+  .presentation {
+    align-items: center;
+    text-wrap: balance;
+    margin-left: 18%;
+  }
+}
+@media screen and (max-width:379px) {
+  .presentation {
+    align-items: center;
+    text-wrap: balance;
+    margin-left: 10%;
+  }
+}
+
+.little_menu { 
+  display:none;
+  width: 35px;
+  position: absolute;
+  top: 50px;
+  left:50px ;
+}
+.little_menu2 { 
+  display:none;
+  width: 35px;
+  position: absolute;
+  top: 90px; 
+  left:50px ;
+}
+
+.header_nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform:uppercase;
+  border: 0.10px solid rgb(2, 3, 3);
+  height: 90px;
+  box-shadow: 
+0 0 .2rem #fff,
+0 0 2rem #b4a8b9,
+0 0 0.8rem #dccde1,
+inset 0 0 1.3rem #c0a5ca;
+/*  */
+color: #115f55;
+text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+}
+
+.footer_nav {
+margin-bottom: 5%;
+display: flex;
+list-style-type: none;
+justify-content: space-evenly;
+align-items: center;
+text-transform:uppercase;
+border: 0.10px solid rgb(2, 3, 3);
+height: 90px;
+box-shadow: 0 0 .2rem #fff,
+0 0 .2rem #fff,
+0 0 2rem #b4a8b9,
+0 0 0.8rem #dccde1,
+0 0 2.8rem #b9ac55,
+inset 0 0 1.3rem #c0a5ca;
+}
+
+@media screen and (max-width:960px) {
+  .header_nav ul , .footer_nav {
+    display: none;
+  }
+  .little_menu {
+    display: block;
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    }
+    @keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    } }  
+    .little_menu2 {
+      display: block;
+      -webkit-animation-name: zoomIn;
+      animation-name: zoomIn;
+      -webkit-animation-duration: 1s;
+      animation-duration: 4s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      
+      @-webkit-keyframes zoomIn {
+      0% {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+      }
+      50% {
+      opacity: 1;
+      }
+      }
+      @keyframes zoomIn {
+      0% {
+      opacity: 0;
+      -webkit-transform: scale3d(.3, .3, .3);
+      transform: scale3d(.3, .3, .3);
+      }
+      50% {
+      opacity: 1;
+      }
+      } }
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+ 
+   h2, h3 {
+
+      animation-iteration-count:infinite;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 15s;
+  animation-duration: 12s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  }
+  @keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  }  
+
+
+
+
+
+
