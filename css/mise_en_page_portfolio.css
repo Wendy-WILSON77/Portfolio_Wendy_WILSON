@@ -103,9 +103,27 @@ h1{
 }
 @media screen and (max-width:379px) {
   h1 {
-    font-size: 50px;
-  }
-}
+    font-size: 30px;
+    
+
+  }}
+  @media screen and (max-width:306px) {
+    h1 {
+      font-size: 27px; 
+    }}
+
+    @media screen and (max-width:276px) {
+      h1 {
+        font-size: 25px; 
+        
+      }}
+      @media screen and (max-width:255px) {
+        h1 {
+          font-size: 20px; 
+         
+          
+        }}
+
 @media only screen and (max-width: 640px) and (max-height: 360px) {
  h1 {font-size: 15px;}}
 
@@ -116,6 +134,23 @@ h1{
     line-height: 55%;
    
 }}
+
+
+@media only screen and  (max-height: 520px) {
+  h1{
+    font-size: 32%;
+
+}}
+@media only screen and  (max-width: 278px) {
+  h1{
+    font-size: 22%;
+}}
+@media only screen and  (max-width: 191px) {
+  h1{
+    font-size: 15%;
+}}
+
+
 
 h2 , h3 {
   font-size: 25px;
@@ -130,6 +165,15 @@ h2 , h3 {
     0 0 102px #0fa,
     0 0 151px #0fa;
 }
+@media screen and (max-width:260px) {
+  h2, h3 {
+    font-size: 25px; 
+    line-height: 150%;
+  }}
+
+
+
+
 @media screen and (max-width:379px) {
   h2, h3 {
     font-size: 20px;
@@ -206,7 +250,7 @@ font-size: 20px ;
     line-height: 90%;
   }
 } 
- @media screen and (max-width:1400px) {
+ @media screen and (max-width:1500px) {
   .presentation {
     align-items: center;
     text-wrap: balance;
@@ -226,6 +270,20 @@ font-size: 20px ;
     line-height: 120%;
   }
 } 
+@media screen and (max-width:1250px) {
+  .presentation {
+  align-items: center;
+    text-wrap: balance;
+    left: 34%;
+    font-size: 50px;
+    top: 41%;
+    line-height: 120%;
+  }
+} 
+
+
+
+
 
 
 @media screen and (max-width:1200px) {
@@ -316,7 +374,7 @@ font-size: 20px ;
   .presentation {
     align-items: center;
     text-wrap: balance;
-   left: 10%;
+   left: 9%;
    top: 62%;
     line-height: 10%;
    width: 83%;
