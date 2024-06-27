@@ -6,12 +6,13 @@
     <title>Portfolio Wendy WILSON</title>
    
     <link rel="stylesheet" href="/css/mise_en_page_portfolio.css"> 
+    <link rel="stylesheet" href="/css/backGroundImage.css"> 
     <link rel="stylesheet" href="/css/logo_icone.css">
     <link rel="shortcut icon" type="image/png" href="/logos_et_icones/favicon1.png"/> 
 </head>
 <body>
 
-    <header>
+    <!-- <header>
         <div class="header_container">   
             <nav class="header_nav">
                 <ul>
@@ -22,18 +23,18 @@
                     <li><a href="#"> Projet Crazy Recipes</a></li>
                     <li class="separation_barre">|</li>
                     <li><a href="#"> Projet Ocoffee</a></li>
-                    <!-- <li class="separation_barre">|</li>
-                    <li><a href="#"> Contact</a></li> -->
+                 
                 </ul>
             </nav> 
         </div>
         <div class="menus_container">
             <img src="./logos_et_icones/ham_menu.png" alt="menu hamburger" class="little_menu"> 
-            <!-- <p> liens utiles </p> -->
+           
             <img src="./logos_et_icones/ham_menu2.png" alt="menu hamburger" class="little_menu2"> 
-            <!-- <p> Technologies  </p> -->
+           
         </div>
-    </header>
+    </header> -->
+    <%- include('./partials/header.ejs') %>
     <article class="presentation_container">
         <div class="presentation">
             <h1> Wendy Wilson</h1>
@@ -49,24 +50,11 @@
         </div>
    
    </article>
-    
-   
-   
-    
-
-
-
-
-
-
-
-
     <main>
 
-
-
     </main>
-    <footer>
+    <%- include('./partials/footer.ejs') %>
+    <!-- <footer>
         <div class="footer_container">   
             <div class="footer_nav">
                 
@@ -87,4 +75,4 @@
 
     </footer>
 </body>
-</html>
+</html> -->

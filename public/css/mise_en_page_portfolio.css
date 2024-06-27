@@ -16,7 +16,7 @@ ul, button {
   border: none;
 } 
 
-html {
+/* html {
   font-family: Cinzel Decorative ;
   height: 190%;
   margin: 0;
@@ -25,7 +25,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 body {
   height: 100%;

@@ -1,0 +1,10 @@
+html {
+    font-family: Cinzel Decorative ;
+    height: 190%;
+    margin: 0;
+    background-image: url(/logos_et_icones/2.webp);
+    background-color: rgb(20, 21, 20);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
