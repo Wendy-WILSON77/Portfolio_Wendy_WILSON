@@ -14,13 +14,13 @@ ul, button {
   padding: 0;
   background: transparent;
   border: none;
-}
+} 
 
 html {
   font-family: Cinzel Decorative ;
   height: 190%;
   margin: 0;
-  background-image: url(/images/2.webp);
+  background-image: url(/logos_et_icones/2.webp);
   background-color: rgb(20, 21, 20);
   background-size: cover;
   background-repeat: no-repeat;
