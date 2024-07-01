@@ -1,17 +1,17 @@
 // Import des dépendances tierses
 const express = require('express');
 // Import des dépendances locales
-const router = require ('./app/router');
+const router = require ('./docs/app/router');
 
 // Create Express app
 const app = express();
 // Configure static
-app.use(express.static('./public'));
+app.use(express.static('./docs/public'));
 
 
 // Configure view engine
 app.set('view engine','ejs');
-app.set('views','./app/views');
+app.set('views','./docs/app/views');
 
 
 // Configure routes
