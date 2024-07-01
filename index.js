@@ -6,12 +6,12 @@ const router = require ('./app/router');
 // Create Express app
 const app = express();
 // Configure static
-app.use(express.static('./docs/public'));
+app.use(express.static('./public'));
 
 
 // Configure view engine
 app.set('view engine','ejs');
-app.set('views','./docs/app/views');
+app.set('views','./app/views');
 
 
 // Configure routes
