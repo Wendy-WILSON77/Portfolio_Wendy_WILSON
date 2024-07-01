@@ -1,7 +1,7 @@
 // Import des dépendances tierses
 const express = require('express');
 // Import des dépendances locales
-const router = require ('./docs/app/router');
+const router = require ('./app/router');
 
 // Create Express app
 const app = express();
