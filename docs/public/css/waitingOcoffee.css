@@ -54,7 +54,7 @@ body{
    
    float: left;
     display: block; /* Rend l'élément de type block pour permettre le centrage */
-    margin-top: -12px;
+    margin-top: -32px;
     margin-bottom: 1%;
     width: 30%;
     height: auto; /* Permet de conserver le ratio de l'image */
@@ -66,7 +66,7 @@ body{
   
   .infoContainer {
     display: block; /* Utilise Flexbox */
-   margin-left: 5%;
+   margin-left: 4%;
    margin-top: 5%;
  
   }
@@ -85,13 +85,13 @@ top: 250px;  /* Ajuste la valeur pour descendre l'élément */
     border-right: .15em solid orange;
     white-space: nowrap;
     margin: 0 auto;
-    letter-spacing: .15em;
+    letter-spacing: .09em;
     animation: typing 3.5s steps(40, end) infinite, blink-caret .75s step-end infinite;
   }
   
   @keyframes typing {
     from { width: 0 }
-    to { width: 30% }
+    to { width: 31% }
   }
   
   @keyframes blink-caret {
@@ -112,5 +112,10 @@ top: 250px;  /* Ajuste la valeur pour descendre l'élément */
     h1 {
       font-size: 20px; /* Taille de police encore plus petite */
       top: 100px; /* Ajuste la position pour rester proche de .strong */
-    }
-  }
+    }}
+
+
+
+
+
+
