@@ -26,6 +26,7 @@ app.use(router);
 
 
 const port = process.env.PORT || 3000
-app.listen(port, () => {
-  console.log('Serveur OK');
+const host = '0.0.0.0';
+app.listen(port, host, () => {
+  console.log('Serveur OK ');
 });
