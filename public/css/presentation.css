@@ -58,3 +58,125 @@
         width: 100vw;
     }; 
 
+
+.container {
+    display: flex;
+    justify-content: center; /* ou flex-start, flex-end, space-between, etc. */
+    align-items: center; /* pour centrer verticalement */
+}
+.buttonPosition{
+   
+    border: solid rgb(254, 255, 255);
+    border-radius: 15%;
+    width: 150px; /* Ajuste la largeur selon tes besoins */
+    margin-left: 40%;
+    margin-top: 2%;
+
+    
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        align-items: center;
+        text-transform:uppercase;
+        border: 0.10px solid rgb(245, 245, 245);
+        height: 90px;
+        box-shadow: 
+      0 0 .2rem #fff,
+      0 0 2rem #b4a8b9,
+      0 0 0.8rem #dccde1,
+      inset 0 0 1.3rem #c0a5ca;
+      /*  */
+      color: #115f55;
+      text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+      }
+
+
+
+
+.presentationContainer {
+    display: block; /* Utilise Flexbox */
+   margin-left: 4%;
+   margin-top: 1%;
+ 
+  }
+   h1 {
+    font-size: 2vw;
+/* positionnement du texte */
+    position: absolute;
+    float: left;
+    top: 35%;  /* Ajuste la valeur pour descendre l'élément */
+
+/* style du texte */
+    color:aliceblue;
+
+    /* effet machine à écrire */
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .09em;
+    animation: typing 3.5s steps(40, end) infinite, blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 31% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    5% { border-color: rgb(234, 221, 78); }
+  }
+
+  
+/* Ajustements pour les écrans plus petits */
+@media screen and (max-width: 768px) {
+    h1 {
+      font-size: 30px; /* Taille de police plus petite */
+      top: 150px; /* Ajuste la position pour rester proche de .strong */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 20px; /* Taille de police encore plus petite */
+      top: 100px; /* Ajuste la position pour rester proche de .strong */
+    }}
+
+/* .courseContainer {
+    width: 80%;
+    margin-left: 10%;
+    line-height: 150%;
+   text-align: justify;
+} */
+.courseContainer {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15%;
+    line-height: 150%;
+    text-align: justify;
+}
+
+/* Pour les écrans plus petits */
+@media (max-width: 768px) {
+    .courseContainer {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+/* Pour les très petits écrans */
+@media (max-width: 480px) {
+    .courseContainer {
+        width: 100%;
+        margin-left: 0;
+    }
+}

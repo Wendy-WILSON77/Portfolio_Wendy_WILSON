@@ -409,7 +409,7 @@ font-size: 20px ;
   justify-content: space-evenly;
   align-items: center;
   text-transform:uppercase;
-  border: 0.10px solid rgb(2, 3, 3);
+  border: 0.10px solid rgb(255, 255, 255);
   height: 90px;
   box-shadow: 
 0 0 .2rem #fff,
@@ -436,7 +436,7 @@ list-style-type: none;
 justify-content: space-evenly;
 align-items: center;
 text-transform:uppercase;
-border: 0.10px solid rgb(2, 3, 3);
+border: 0.10px solid rgb(255, 255, 255);
 height: 90px;
 box-shadow: 0 0 .2rem #fff,
 0 0 .2rem #fff,
