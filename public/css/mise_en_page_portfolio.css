@@ -556,4 +556,7 @@ inset 0 0 1.3rem #c0a5ca;
 
 
 
-
+.menus_container {
+  flex-direction: row;
+  justify-self: center;
+}

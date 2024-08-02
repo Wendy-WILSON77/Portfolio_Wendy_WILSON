@@ -9,6 +9,7 @@ const homeController = require("./controllers/homeController");
 const presentationController = require("./controllers/presentationController");
 const waitingOcoffeeController = require("./controllers/waitingOcoffeeController");
 const waitingRecipesController = require("./controllers/waitingRecipesController");
+const technoController = require("./controllers/technoController");
 
 
 
@@ -24,6 +25,9 @@ router.get("/waitingOcoffee", waitingOcoffeeController.renderWaitingOcoffeePage)
 // route projet recipes en attente
 
 router.get("/waitingRecipes", waitingRecipesController.renderWaitingRecipesPage);
+
+// route technologies
+router.get("/techno", technoController.renderTechnoPage);
 
 // Export router
 module.exports = router;
