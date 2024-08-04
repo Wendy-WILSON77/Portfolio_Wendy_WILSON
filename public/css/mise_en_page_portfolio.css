@@ -43,16 +43,24 @@ top:0;
 }
 
  .footer_container{
+ 
   color: rgb(249, 251, 251);
- position: relative;
+ position:absolute;
+ clear: both; /* Assurez-vous que le footer ne chevauche pas d'autres éléments */
   margin-left:1%;
   margin-right:30% ;
-  margin-bottom: 1;
+  margin-bottom: 20%;
+  padding-bottom: 10px;;
   width: 98%;
   height: 10%;
-  bottom : 1%;
+  top: 155%;
+  z-index: 10; /* Assurez-vous qu'il est au-dessus des autres éléments *
 
+ /* position: fixed; //////////////////////////////////////////// */
+    bottom: 80%;
+    width: 100%
  }
+
  @media screen and (max-width:1200px) {
   .footer_container {
     flex-direction: column;
@@ -430,6 +438,7 @@ text-shadow:
 }
 
 .footer_nav {
+
 margin-bottom: 5%;
 display: flex;
 list-style-type: none;
