@@ -51,7 +51,8 @@ body{
 }
 
 .strong {
-   
+   position: absolute;
+   left: 50%;
    float: left;
     display: block; /* Rend l'élément de type block pour permettre le centrage */
     margin-top: -32px;
@@ -71,11 +72,12 @@ body{
  
   }
    h1 {
-font-size: 5vw;
+font-size: 50px;
 /* positionnement du texte */
 position: relative;
 float: left;
-top: 250px;  /* Ajuste la valeur pour descendre l'élément */
+left: 2%;
+top: 50px;  /* Ajuste la valeur pour descendre l'élément */
 
 /* style du texte */
     color:aliceblue;
@@ -103,19 +105,23 @@ top: 250px;  /* Ajuste la valeur pour descendre l'élément */
 /* Ajustements pour les écrans plus petits */
 @media screen and (max-width: 768px) {
     h1 {
-      font-size: 30px; /* Taille de police plus petite */
-      top: 150px; /* Ajuste la position pour rester proche de .strong */
+      font-size: 35px; /* Taille de police plus petite */
+      top: 20px; /* Ajuste la position pour rester proche de .strong */
     }
   }
   
   @media screen and (max-width: 480px) {
     h1 {
-      font-size: 20px; /* Taille de police encore plus petite */
+      font-size: 17px; /* Taille de police encore plus petite */
       top: 100px; /* Ajuste la position pour rester proche de .strong */
     }}
 
 
 
-
+    .footer_container {
+      top: 85%;
+      padding-bottom: 10%;
+    
+    }
 
 

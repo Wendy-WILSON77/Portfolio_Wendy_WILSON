@@ -12,7 +12,7 @@
    figure, figcaption, footer, header, hgroup, 
    menu, nav, output, ruby, section, summary,
    time, mark, audio, video {
-       margin: 0;
+       margin: 20;
        padding: 0;
        border: 0;
        font-size: 100%;
@@ -24,10 +24,12 @@
    footer, header, hgroup, menu, nav, section {
        display: block;
    }
-   body {
-       line-height: 21
-       min-height: 100vh; /* Assurez-vous que le body prend au moins toute la hauteur de la fenêtre */
-       display: flex;
+
+   body {  
+      
+        /* Assurez-vous que le body prend au moins toute la hauteur de la fenêtre */
+        /* min-height: 100vh; */
+       /* display: flex; */
    }
    ol, ul {
        list-style: none;
@@ -50,6 +52,7 @@
    
    body{
        background-color: black;
+     
    }
    
    .strong {
@@ -58,7 +61,7 @@
       float: left;
        display: block; /* Rend l'élément de type block pour permettre le centrage */
        margin-top: -32px;
-       margin-bottom: 1%;
+       /* margin-bottom: 1%; */
        width: 30%;
        height: auto; /* Permet de conserver le ratio de l'image */
        border-radius: 25%;
@@ -126,3 +129,9 @@
       }
     }
   
+.footer_container {
+  top: 85%;
+  padding-bottom: 10%;
+
+}
+ 
