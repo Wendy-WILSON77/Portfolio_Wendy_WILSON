@@ -1,3 +1,5 @@
+
+
 .buttonPosition{
    
 /* position: absolute; */
@@ -14,13 +16,13 @@
         justify-content: center;
         align-items: center;
         text-transform:uppercase;
-        border: 0.10px solid rgb(245, 245, 245);
+        border: 0.50px solid rgb(245, 245, 245);
         height: auto;
         box-shadow: 
       0 0 .2rem #fff,
       0 0 2rem #b4a8b9,
-      0 0 0.8rem #dccde1,
-      inset 0 0 1.3rem #c0a5ca;
+      0 0 0.8rem #dccde1;
+      /* inset 0 0 1.3rem #c0a5ca; */
       /*  */
       color: #115f55;
       text-shadow:
@@ -41,20 +43,26 @@ position:static;
 top: 0%;
 
       }
+
+      @media screen and (min-width:961px) {
+        .buttonPosition{
+          display: none;
+         
+        }}
       /* Ajustements pour les écrans plus petits */
    @media screen and (max-width: 768px) {
     .buttonPosition {
-      font-size: 25px; /* Taille de police plus petite */
+      font-size: 10px; /* Taille de police plus petite */
       top: 20px; /* Ajuste la position pour rester proche de .strong */
     }
     .containerBtnRetour{
-      width: auto;
+     width: 10;
     }
   }
   
   @media screen and (max-width: 480px) {
     .buttonPosition {
-      font-size: 20px; /* Taille de police encore plus petite */
+      font-size: 10px; /* Taille de police encore plus petite */
       top: 10px; /* Ajuste la position pour rester proche de .strong */
     }
     .containerBtnRetour{
@@ -63,7 +71,7 @@ top: 0%;
   }
   @media screen and (width: 480px) {
    .buttonPosition {
-     font-size: 20px; /* Taille de police encore plus petite */
+     font-size: 10px; /* Taille de police encore plus petite */
      top: 10px; /* Ajuste la position pour rester proche de .strong */
    }
    .containerBtnRetour{

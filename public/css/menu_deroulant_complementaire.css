@@ -7,7 +7,47 @@
     
     
     }
-    @media screen and (min-width:960px) {
+
+
+    .navbar{
+   
+        /* position: absolute; */
+            border: solid rgb(254, 255, 255);
+            border-radius: 15%;
+            width: auto; /* Ajuste la largeur selon tes besoins */
+            margin-left: 4%;
+            margin-top: 1%;
+          
+        
+        
+            
+                display: flex;
+                list-style-type: none;
+                justify-content: center;
+                align-items: center;
+                text-transform:uppercase;
+                border: 0.10px solid rgb(245, 245, 245);
+                height: auto;
+                box-shadow: 
+              0 0 .2rem #fff,
+              0 0 2rem #b4a8b9,
+              0 0 0.8rem #dccde1,
+              inset 0 0 1.3rem #c0a5ca;
+              /*  */
+              color: #115f55;
+              text-shadow:
+                0 0 7px #fff,
+                0 0 10px #fff,
+                0 0 21px #fff,
+                0 0 42px #0fa,
+                0 0 82px #0fa,
+                0 0 92px #0fa,
+                0 0 102px #0fa,
+                0 0 151px #0fa;
+              }
+
+
+    @media screen and (min-width:961px) {
         .containerDroulant{
           display: none;
          
@@ -61,9 +101,9 @@
     }
 
     @media screen and (max-width: 600px) {
-        /* .navbar {
+        .navbar {
             flex-direction: column;
-        } */
+        }
     
         .navbar a, .dropdown .dropbtn {
             width: 100%;
@@ -71,11 +111,6 @@
         }
     }
     
-    @media screen and (max-width: 373px) {
-         .navbar {
-            flex-direction: column;
-            
-        } }
     
     .dropdown-content {
         display: none;

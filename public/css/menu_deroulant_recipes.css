@@ -3,11 +3,56 @@
 .containerDroulant {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
-    
+    margin-top: 3%;
+    height: 45px;
+    padding: 1%;
+    width: 100%;
     
     }
-    @media screen and (min-width:960px) {
+
+
+    .navbar{
+   justify-content: center;
+   align-items: center;
+        /* position: absolute; */
+            border: solid rgb(254, 255, 255);
+            border-radius: 15%;
+            width:100%;
+             /* Ajuste la largeur selon tes besoins */
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 1%;
+          
+        
+        
+            
+                display: flex;
+                list-style-type: none;
+                justify-content: center;
+                align-items: center;
+                text-transform:uppercase;
+                border: 0.10px solid rgb(245, 245, 245);
+                height: auto;
+                box-shadow: 
+              0 0 .2rem #fff,
+              0 0 2rem #b4a8b9,
+              0 0 0.8rem #dccde1,
+              inset 0 0 1.3rem #c0a5ca;
+              /*  */
+              color: #115f55;
+              text-shadow:
+                0 0 7px #fff,
+                0 0 10px #fff,
+                0 0 21px #fff,
+                0 0 42px #0fa,
+                0 0 82px #0fa,
+                0 0 92px #0fa,
+                0 0 102px #0fa,
+                0 0 151px #0fa;
+              }
+
+
+    @media screen and (min-width:961px) {
         .containerDroulant{
           display: none;
          
@@ -26,8 +71,9 @@
     .navbar a, .dropdown .dropbtn {
         display: flex;
         align-items: center;
-        padding: 14px 16px;
+        padding: 50px 50px;
         margin: 0;
+        width: 100%;
     }
     .navbar a {
         float: left;
@@ -36,6 +82,7 @@
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        width: 100px
     }
     
     .navbar a:hover, .dropdown:hover .dropbtn {
@@ -71,11 +118,6 @@
         }
     }
     
-    @media screen and (max-width: 373px) {
-         .navbar {
-            flex-direction: column;
-            
-        } }
     
     .dropdown-content {
         display: none;
@@ -112,10 +154,20 @@
         background-color: #ddd;
     }
     
-    .dropdown:hover .dropdown-content {
+    
+
+    .dropdown:hover .dropdown-content, .dropdown:focus-within .dropdown-content {
         display: block;
     }
     
+
+    @media screen and (max-width: 961px) {
+        .navbar a, .dropdown .dropbtn {
+           
+          
+        }
+    }
+
     @media screen and (max-width: 600px) {
         .navbar a, .dropdown .dropbtn {
             float: none;
@@ -125,4 +177,14 @@
         }
     }
     
+    @media screen and (max-width: 301px) {
+         .navbar {
+           display: none;
+        } 
     
+    }
+    .buttonPosition {
+margin-top: 3%;
+margin-left: 1%;
+
+    }
