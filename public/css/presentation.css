@@ -47,18 +47,15 @@
    
     
     
-    
-   body{
-    background-color: rgb(204, 211, 200);
-  
-  }
+
     html {
-        background-image: linear-gradient(to bottom, rgb(3, 70, 52), rgb(201, 239, 218), hsl(180, 13%, 22%));
+        
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
         height: 100vh;
         width: 100vw;
+        background-color: rgb(204, 211, 200);
     }; 
 
 
@@ -66,6 +63,7 @@
     display: flex;
     justify-content: center; /* ou flex-start, flex-end, space-between, etc. */
     align-items: center; /* pour centrer verticalement */
+    
 }
 .buttonPosition{
    
@@ -82,7 +80,7 @@
         align-items: center;
         text-transform:uppercase;
         border: 0.10px solid rgb(245, 245, 245);
-        height: 90px;
+        height: 30px;
         box-shadow: 
       0 0 .2rem #fff,
       0 0 2rem #b4a8b9,
@@ -104,10 +102,10 @@
 
 
 
-.presentationContainer {
+.presentation_container {
     display: block; /* Utilise Flexbox */
    margin-left: 4%;
-   margin-top: 1%;
+   margin-top: -20%;
  
   }
    h1 {
@@ -115,7 +113,8 @@
 /* positionnement du texte */
     position: absolute;
     float: left;
-    top: 35%;  /* Ajuste la valeur pour descendre l'élément */
+    left: 11%;
+    top: 12%;  /* Ajuste la valeur pour descendre l'élément */
 
 /* style du texte */
     color:#115f55;
@@ -154,23 +153,18 @@
       top: 100px; /* Ajuste la position pour rester proche de .strong */
     }}
 
-/* .courseContainer {
-    width: 80%;
-    margin-left: 10%;
-    line-height: 150%;
-   text-align: justify;
-} */
-.courseContainer {
+
+.course_container {
     width: 80%;
     margin-left: 10%;
     margin-top: 15%;
     line-height: 150%;
-    text-align: justify;
+  
 }
 
 /* Pour les écrans plus petits */
 @media (max-width: 768px) {
-    .courseContainer {
+    .course_container {
         width: 90%;
         margin-left: 5%;
     }
@@ -178,14 +172,36 @@
 
 /* Pour les très petits écrans */
 @media (max-width: 480px) {
-    .courseContainer {
+    .course_container {
         width: 100%;
         margin-left: 0;
     }
 }
 
 .footer_container {
-    top: 85%;
+    top: 80%;
     padding-bottom: 10%;
   
   }
+ 
+  /* IA */
+  a.external-link {
+    color: #0056b3;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+}
+a.external-link::after {
+    content: '\f35d';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 0.8em;
+    margin-left: 5px;
+    color: #6c757d;
+}
+a.external-link:hover {
+     color: #0056b3;
+}
+a.external-link:hover::after {
+   color: #82b2e4;
+}
