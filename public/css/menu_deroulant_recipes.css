@@ -1,4 +1,6 @@
-
+.container{
+    margin-left:15px; /* Ajustez cette valeur pour déplacer le bouton retour plus à droite */
+}
 
 .containerDroulant {
     display: flex;
@@ -60,8 +62,8 @@
     
     .navbar {
         overflow: hidden;
-        background-color: rgb(39, 50, 48);
-        border-radius: 15px;
+        background-color:#115f55;
+        border-radius: 5px;
         border: 0.10px solid rgb(255, 255, 255);
         font-weight: bold;
         display: flex;

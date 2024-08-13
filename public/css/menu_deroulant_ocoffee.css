@@ -1,25 +1,27 @@
-
+.container{
+    margin-left: 30px; /* Ajustez cette valeur pour déplacer le bouton plus à droite */
+}
 
 .containerDroulant {
     display: flex;
     justify-content: center;
     margin-top: 3%;
-    height: 40px;
-    padding: 20px 30px;
-    
+    height: 45px;
+    padding: 1px -2px;
+    width: 100%;
+    left : -4%;
     }
 
-
+  
     .navbar{
    
         /* position: absolute; */
             border: solid rgb(254, 255, 255);
             border-radius: 15%;
-            width: auto; /* Ajuste la largeur selon tes besoins */
-            margin-left: 4%;
+            width: 100%; /* Ajuste la largeur selon tes besoins */
+            margin-left: 0%;
             margin-top: 1%;
-          
-        
+            
         
             
                 display: flex;
@@ -56,8 +58,8 @@
     
     .navbar {
         overflow: hidden;
-        background-color: rgb(39, 50, 48);
-        border-radius: 15px;
+        background-color: #115f55;
+        border-radius: 5px;
         border: 0.10px solid rgb(255, 255, 255);
         font-weight: bold;
         display: flex;
@@ -67,7 +69,7 @@
     .navbar a, .dropdown .dropbtn {
         display: flex;
         align-items: center;
-        padding: 20px 30px;
+        padding: 50px 50px;
         margin: 0;
         width: 100%;
 

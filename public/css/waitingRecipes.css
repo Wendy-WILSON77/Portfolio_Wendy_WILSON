@@ -72,14 +72,14 @@
      
      .infoContainer {
        display: block; /* Utilise Flexbox */
-      margin-left: 4%;
+      margin-left: 1%;
       margin-top: 25%;
       
     
      }
 
      .footer_container {
-      top: 72%;
+      top: 66%;
       padding-bottom: 15%;
     
     }
@@ -116,35 +116,36 @@
     
      @media screen and (max-width: 1100px) {
       .strong{
-       top: 65%;
-
+       top: 55%;
+       margin-top: 230px;
       }
       h1 {
         font-size: 35px; /* Taille de police plus petite */
         top: 20px; /* Ajuste la position pour rester proche de .strong */
       }
       .footer_container{
-        top: 73%;
+        top: 63%;
       }
     }
 
      @media screen and (max-width: 1222px) {
-      .strong{margin-top: -200px;
+      .strong{margin-top: -150px;
 
       }
       h1 {
         font-size: 35px; /* Taille de police plus petite */
-        top: 20px; /* Ajuste la position pour rester proche de .strong */
+        top: 5px; /* Ajuste la position pour rester proche de .strong */
       }
     }
     /* revoir media querry à partir de 961 */
     @media screen and (max-width: 961px) {
-      .strong{margin-top: -200px;
+      .strong{
+        margin-top: -200px;
 
       }
       h1 {
-        font-size: 25px; /* Taille de police plus petite */
-        top: 50%; /* Ajuste la position pour rester proche de .strong */
+        font-size: 35px; /* Taille de police plus petite */
+        top: -80px; /* Ajuste la position pour rester proche de .strong */
       
       }
     }
@@ -152,27 +153,24 @@
    /* Ajustements pour les écrans plus petits */
    @media screen and (max-width: 768px) {
        
-    .strong{margin-top: -220px;
+    .strong{
+      top:50%;
+      /* margin-top: -250px; */
 
     }
     h1 {
          font-size: 35px; /* Taille de police plus petite */
-         top: 20px; /* Ajuste la position pour rester proche de .strong */
+         top: -70px; /* Ajuste la position pour rester proche de .strong */
        }
      }
      
      @media screen and (max-width: 480px) {
        h1 {
-         font-size: 17px; /* Taille de police encore plus petite */
-         top: 10px; /* Ajuste la position pour rester proche de .strong */
+         font-size: 25px; /* Taille de police encore plus petite */
+         top: -80px; /* Ajuste la position pour rester proche de .strong */
        }
      }
-     @media screen and (width: 480px) {
-      h1 {
-        font-size: 16px; /* Taille de police encore plus petite */
-        top: 10px; /* Ajuste la position pour rester proche de .strong */
-      }
-    }
+ 
   
 
  

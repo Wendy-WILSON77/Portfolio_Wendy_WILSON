@@ -7,24 +7,36 @@
     padding: 10px 20px;
     font-size: 16px;
     color: #ffffff;
-    background-color: #000000;
+    background-color: #115f55;
     border:none;
-    border-radius: 5px;
+    border-radius: 10px; 
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    
 }
-
+.containerBtnRetour{
+    height: 10px;
+}
 .buttonPosition:hover {
     background-color: #ffffff;
     transform: scale(1.05);
 }
 
 .buttonPosition a {
-    color: #ea8585;
+    color:orange;
     text-decoration: none;
+  
 }
 @media screen and (min-width:961px) {
     .buttonPosition{
       display: none;
      
     }}
+
+    @media screen and (max-width:961px) {
+        .buttonPosition{
+         font-size: 11px;
+        padding-top: -1%;}
+        .containerBtnRetour{
+            margin-top: 10%;
+        }}
