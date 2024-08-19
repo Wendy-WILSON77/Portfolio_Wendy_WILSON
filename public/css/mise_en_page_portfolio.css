@@ -589,9 +589,11 @@ mailto barre nav du header */
   100% {
       opacity: 1;
   }
+
 }
 
 /* Appliquez la classe au lien */
 .clikEnv {
   animation: clignotant 1s infinite; /* Répétez l'animation indéfiniment */
+  
 }
