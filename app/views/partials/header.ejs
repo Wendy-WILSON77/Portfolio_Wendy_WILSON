@@ -27,20 +27,33 @@
       </button>
     </div> 
     <div class="dropdown">
-      <button class="dropbtn">Projets 
+      <button class="dropbtn">
+        <a href="https://www.linkedin.com/in/wendy-wilson/">Linkedin</a>
+      </button>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">A propos de moi
         <i class="fa fa-caret-down"></i>
       </button>
       
      <div class="dropdown-content">
+      <a href="/techno">Technologies</a>
        <a href="/waitingRecipes">Projet Crazy Recipe</a>
        <a href="/waitingOcoffee">Projet Ocoffee</a>
-       <a href="XX">My Notepad</a>
+       <a href="XX">Projet My Notepad</a>
+
      </div>
     </div>
     
     <div class="dropdown">
-        <button class="dropbtn">
-          <a href="/techno">Technologies</a>
+          <button onclick="ouvrirApplicationMail()" class="dropbtn">
+          <a><i class="material-icons clikEnv">email</i> Contact</a></button>
+          <script>
+              function ouvrirApplicationMail() {
+                  window.location.href = 'mailto:wendywilson.pro.dev@gmail.com';
+              }
+          </script>
+
         </button>
       </div> 
   </div>
