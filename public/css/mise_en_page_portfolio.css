@@ -574,3 +574,24 @@ inset 0 0 1.3rem #c0a5ca;
   flex-direction: row;
   justify-self: center;
 }
+
+/* 
+mailto barre nav du header */
+
+/* Animation de clignotement */
+@keyframes clignotant {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0.5;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+/* Appliquez la classe au lien */
+.clikEnv {
+  animation: clignotant 1s infinite; /* Répétez l'animation indéfiniment */
+}
