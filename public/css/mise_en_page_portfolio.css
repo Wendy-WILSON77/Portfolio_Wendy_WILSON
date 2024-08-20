@@ -239,17 +239,17 @@ font-size: 20px ;
  
  }
 
- @media screen and (max-width:1500px) {
+  @media screen and (max-width:4500px) {
   .presentation {
     align-items: center;
     text-wrap: balance;
-    left: 40%;
-    font-size: 50px;
-    top: 86%;
+    left: 45%;
+    font-size: 280px;
+    top: 60%;
     line-height: 90%;
   }
-} 
- @media screen and (max-width:1500px) {
+}  
+ @media screen and (max-width:2500px) {
   .presentation {
     align-items: center;
     text-wrap: balance;
@@ -259,7 +259,7 @@ font-size: 20px ;
     line-height: 120%;
   }
 } 
-@media screen and (max-width:1300px) {
+/* @media screen and (max-width:1300px) {
   .presentation {
   align-items: center;
     text-wrap: balance;
@@ -278,14 +278,14 @@ font-size: 20px ;
     top: 41%;
     line-height: 120%;
   }
-} 
+}  */
 
 
 
 
 
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1300px) {
   .presentation {
     align-items: center;
     text-wrap: balance;
