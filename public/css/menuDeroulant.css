@@ -12,6 +12,20 @@
           display: none;
          
         }}
+
+        @media screen and (max-width: 373px) {
+            .containerDroulant {
+              height: 55%;
+               
+           } }
+       
+
+           @media screen and (max-width: 250px) {
+            .containerDroulant {
+              height: 57%;
+               
+           } }
+       
     
     .navbar {
         overflow: hidden;
@@ -76,7 +90,7 @@
     @media screen and (max-width: 373px) {
          .navbar {
             flex-direction: column;
-            
+                      
         } }
     
     .dropdown-content {
