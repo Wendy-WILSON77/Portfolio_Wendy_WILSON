@@ -69,7 +69,9 @@
             width: 100%;
             text-align: left;
         }
-    }
+        .dropdown .dropbtn {
+            font-size: 14px;
+    }}
     
     @media screen and (max-width: 373px) {
          .navbar {
