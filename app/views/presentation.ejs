@@ -1,47 +1,81 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> À Propos de moi</title>
-    <link rel="stylesheet" href="/css/reset.css"/> 
-    <link rel="stylesheet" href="/css/mise_en_page_portfolio.css"> 
-    <link rel="stylesheet" href="/css/presentation.css">
-    <link rel="stylesheet" href="/css/logo_icone.css">
-    <link rel="shortcut icon" type="image/png" href="/logos_et_icones/favicon1.png"/>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>À Propos de moi</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/mise_en_page_portfolio.css" />
+    <link rel="stylesheet" href="/css/presentation.css" />
+    <link rel="stylesheet" href="/css/logo_icone.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/logos_et_icones/favicon1.png"
+    />
+    <%- include('./partials/header.ejs') %>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  
+  </head>
 
-
-    <body>
-    <header>     
-
+  <body>
+    <header>
       <div class="container">
-        <button class="buttonPosition"><a href="javascript:history.go(-1)">retour</a></button>
+        <button class="buttonPosition">
+          <a href="javascript:history.go(-1)">retour</a>
+        </button>
+
       </div>
     </header>
-     
-      <article class="course_container">  
-        <div class="presentation_container">
-            <h1> À Propos de moi ...</h1>
-            </div>
+    <article class="course_container">
+      <div class="presentation_container">
+        <h1>À Propos de moi ...</h1>
+      </div>
+      <div class="short_presentation">
+        <p>
+          Agée de 34 ans, je fais place à une passion : le développement web.
+        </p>
+        <p>
+          Le Titre Professionnel Développeur Web et Web Mobile (bac +2) valide
+          toutes les compétences d'un développeur full stack. J'ai, cependant,
+          une grande attirance pour le Front-end, mais ce n'est pas un secret.
+          J'aime m'appliquer et encore plus quand l'objectif est de donner
+          instantanément une impression positive aux clients et de ce fait,
+          améliorer l'expérience globale de l'utilisateur.
+        </p>
+        <br/>
+        <p>
+          L'obtention du certificat
+          <a
+            href="https://www.opquast.com/certification/"
+            class="external-link"
+            target="_blank"
+            >OPQUAST</a
+          >
+          a confirmé et approfondi mes connaissances sur les métiers du web et
+          ainsi m'aide à me perfectionner dans ce que j'aime faire… le
+          développement web.
+        </p>
+        <br/>
+      
 
-        <div class="short_presentation">
-          <p> Agée de 34 ans, je fais place à une passion : le développement web.</p>
-          <p>Le Titre Professionnel Développeur Web et Web Mobile (bac +2) valide toutes les compétences d'un développeur full stack. J'ai, cependant, une grande attirance pour le Front-end, mais ce n'est pas un secret. J'aime m'appliquer et encore plus quand l'objectif est de donner instantanément une impression positive aux clients et de ce fait, améliorer l'expérience globale de l'utilisateur. </p>
-          <br>
-           <p>L'obtention du certificat <a href="https://www.opquast.com/certification/" class="external-link" target="_blank">OPQUAST</a> a confirmé et approfondi mes connaissances sur les métiers du web et ainsi m'aide à me perfectionner dans ce que j'aime faire… le développement web.</p>
-          <br>
-          <p> J'aime apprendre, comprendre et me dépatouiller des situations embarrassantes du code, jusqu'à obtenir un résultat satisfaisant.
-                Cela me caractérise assez bien. J'ai une force de caractère et je ne lâche rien, surtout ma tasse de café, qui elle, est bien trop précieuse !!</p>
-          <br>
-          <p>Enfin, Confucius et moi aurions pu être amis … </p><cite>« Choisis un travail que tu aimes, et tu n'auras pas à travailler un seul jour de ta vie ».</cite>
-        </div>
-      </article>
-        <div class="footer_container">
-          <%- include('./partials/footer.ejs') %>  
-        </div>
-
-    </body>
+        <p>
+          J'aime apprendre, comprendre et me dépatouiller des situations
+          embarrassantes du code, jusqu'à obtenir un résultat satisfaisant. Cela
+          me caractérise assez bien. J'ai une force de caractère et je ne lâche
+          rien, surtout ma tasse de café, qui elle, est bien trop précieuse !!
+        </p>
+        <br/>
+        <p>Enfin, Confucius et moi aurions pu être amis …</p>
+        <cite
+          >« Choisis un travail que tu aimes, et tu n'auras pas à travailler un
+          seul jour de ta vie ».</cite
+        >
+      </div>
+    </article>
+    <div class="footer_container"><%- include('./partials/footer.ejs') %></div>
+  </body>
 </html>

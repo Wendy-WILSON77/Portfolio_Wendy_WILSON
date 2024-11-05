@@ -10,24 +10,29 @@
     <link rel="stylesheet" href="/css/retour2.css">
     <link rel="stylesheet" href="/css/menu_deroulant_ocoffee.css">
     <link rel="shortcut icon" type="image/png" href="/logos_et_icones/favicon1.png"/>
-
-
+    <style>
+        
+    </style>
 </head>
 
 <body>
   <div class="header_container">   
     <%- include('./partials/header.ejs') %>
   </div>
-  <div class="containerBtnRetour">
-    <button class="buttonPosition"><a href="javascript:history.go(-1)">retour</a></button>
+      
+  <div class="content strong">
+    <img src="/logos_et_icones/logosConvertis/waitingProject2.webp" class="max-w-sm rounded-lg shadow-2xl" />
+    <div>
+      <h1 class="text-5xl font-bold">Patience ...</h1>
+      <p class="py-6">
+        XXX est un projet 
+        « Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+      </p>
+      <div class="containerBtnRetour art"> 
+        <button class="buttonPosition"><a href="javascript:history.go(-1)">retour</a></button>
+      </div>
+    </div>
   </div>
-
-<div class="infoContainer">
-  <h1> Patience ... </h1> 
-</div>
-  <img class="strong" src="/logos_et_icones/logosConvertis/waitingProject2.webp" alt="waiting for the final project">
- 
-  
 
   <div class="footer_container">
     <%- include('./partials/footer.ejs') %>  

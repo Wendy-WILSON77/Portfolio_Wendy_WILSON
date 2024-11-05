@@ -10,7 +10,7 @@ const presentationController = require("./controllers/presentationController");
 const waitingOcoffeeController = require("./controllers/waitingOcoffeeController");
 const waitingRecipesController = require("./controllers/waitingRecipesController");
 const technoController = require("./controllers/technoController");
-
+const designController = require("./controllers/designController");
 
 
 // Configure router
@@ -28,6 +28,9 @@ router.get("/waitingRecipes", waitingRecipesController.renderWaitingRecipesPage)
 
 // route technologies
 router.get("/techno", technoController.renderTechnoPage);
+
+// route maquette figma - kangal
+router.get("/design", designController.renderDesignPage);
 
 // Export router
 module.exports = router;

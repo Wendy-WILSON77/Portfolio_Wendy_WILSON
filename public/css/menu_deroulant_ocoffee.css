@@ -59,8 +59,11 @@
         @media screen and (max-width: 373px) {
             .containerDroulant {
               height: 55%;
+                              
+               } }
+        
                
-           } }
+        
        
 
            @media screen and (max-width: 250px) {
@@ -178,6 +181,11 @@
         margin-top: 10%;
     } */
 
+
+
+
+
+
  @media screen and (max-width: 961px) {
         .navbar a, .dropdown .dropbtn {
            
@@ -224,21 +232,24 @@
 
  
     @media screen and (max-width: 480px) {
+        
+        
         .navbar {
-          display: none;
+          /* display: none; */
+          height: 35px;
        } 
        .buttonPosition{
-           margin-top: 20%;
+           margin-top: 90px;
        }
        .strong {
-          margin-top: 50px;
+        margin-top: 20%;
        }
        .infoContainer{
-       margin-top: -20%}
+       margin-top: -8%}
    }
     @media screen and (max-width: 301px) {
          .navbar {
-           display: none;
+           /* display: none; */
         } 
         .buttonPosition{
             margin-top: 20%;
@@ -250,7 +261,7 @@
         margin-top: -20%}
     }
     .buttonPosition {
-        margin-top: 15%;
+        margin-top: 1%;
         margin-left: 1%;
         
             }

@@ -205,3 +205,51 @@ a.external-link:hover {
 a.external-link:hover::after {
    color: #82b2e4;
 }
+
+
+/* IA 2  */
+/* 
+@media (max-width: 1200px) {
+    .container {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .short_presentation p {
+      font-size: 0.9rem;
+    }
+  
+    .footer_container {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 5px;
+    }
+  
+    .presentation_container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .short_presentation p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .short_presentation p {
+      font-size: 0.7rem;
+    }
+  
+    .footer_container {
+      padding: 10px;
+      font-size: 0.8rem;
+    }
+  }  */
