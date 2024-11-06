@@ -84,15 +84,15 @@ h3 {
     0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
 }
 
- /* DEBUT MEDIA QUERIES DANS LE CADRE  */
-
- @media (max-width: 5393px) and (min-height: 844px) {
+/* DEBUT MEDIA QUERIES DANS LE CADRE  */
+/* 
+ @media (width: 5393px) and (height: 851px) {
   .presentation {
-    left: 8%;
+    left: 30%;
     margin-top: 23rem;
   }
   h1{
-    font-size: 30px;
+    font-size: 10px;
   }
   h2, h3{
     font-size: 25px;
@@ -103,216 +103,779 @@ h3 {
   .mail{
     font-size: 15px;
   }
-}
+} */
 
-@media (max-width: 1280px) and (height: 1024px) {
+@media (width: 375px) and (height: 812px) {
   .presentation {
-    left: 27%;
-    margin-top: 30rem;
-    line-height: 19%;
+    left: 5%;
+    margin-top: 25rem;
+    line-height: 75%;
   }
-  h1{
-    font-size: 60px;
-  }
-  h2, h3{
-    font-size: 45px;
-  }
-  p{
-    font-size: 50px;
-  }
-  .mail{
+  h1 {
     font-size: 30px;
   }
-
-}
-
-@media (min-width: 1366px) and (max-height: 900px) {
-  .presentation {
-    left: 37%;
-    margin-top: 24rem;
-    line-height: 49%;
-  }
-  h1{
-    font-size: 45px;
-  }
-  h2, h3{
+  h2,
+  h3 {
     font-size: 30px;
   }
-  p{
-    font-size: 30px;
-  }
-  .mail{
+  p {
     font-size: 20px;
   }
+  .mail {
+    font-size: 15px;
+  }
 }
 
-
-
-@media (min-width: 1600px) and (min-height: 900px) {
+/* @media (width: 375px) and (height: 667px) {
   .presentation {
-    left: 39%;
-    margin-top: 29rem;
-    line-height: 49%;
+    left: 5%;
+    margin-top: 19rem;
+    line-height: 75%;
   }
-  h1{
-    font-size: 50px;
-  }
-  h2, h3{
+  h1 {
     font-size: 30px;
   }
-  p{
+  h2,
+  h3 {
     font-size: 30px;
   }
-  .mail{
+  p {
     font-size: 20px;
   }
-}
+  .mail {
+    font-size: 18px;
+  }
+} */
 
-
-
-
-@media (min-width: 1920px) and (min-height: 1080px) {
+@media (width: 360px) and (height: 740px) {
   .presentation {
-    left: 37%;
-    margin-top:34rem;
-    line-height: 89%;
+    left: 5%;
+    margin-top: 25rem;
+    line-height: 75%;
   }
-  h1{
-    font-size: 60px;
+  h1 {
+    font-size: 30px;
   }
-  h2, h3{
-    font-size: 45px;
+  h2,
+  h3 {
+    font-size: 30px;
   }
-  p{
-    font-size: 45px;
+  p {
+    font-size: 20px;
   }
-  .mail{
-    font-size: 25px;
+  .mail {
+    font-size: 15px;
   }
 }
 
-@media (min-width: 1920px) and (min-height: 1200px) {
+@media (width: 320px) and (height: 658px) {
   .presentation {
-    left: 37%;
-    margin-top:40rem;
-    line-height: 89%;
+    left: 5%;
+    margin-top: 20rem;
+    line-height: 75%;
   }
-  h1{
-    font-size: 60px;
+  h1 {
+    font-size: 30px;
   }
-  h2, h3{
-    font-size: 45px;
+  h2,
+  h3 {
+    font-size: 30px;
   }
-  p{
-    font-size: 45px;
+  p {
+    font-size: 20px;
   }
-  .mail{
-    font-size: 25px;
+  .mail {
+    font-size: 15px;
   }
 }
 
-
-@media (min-width: 2560px) and (min-height: 1440px) {
+@media (width: 320px) and (height: 568px) {
   .presentation {
-    left: 37%;
-    margin-top:50rem;
-    line-height: 100%;
+    left: 13%;
+    margin-top: 17rem;
+    line-height: 75%;
   }
-  h1{
-    font-size: 85px;
+  h1 {
+    font-size: 30px;
   }
-  h2, h3{
-    font-size: 45px;
+  h2,
+  h3 {
+    font-size: 20px;
   }
-  p{
-    font-size: 45px;
+  p {
+    font-size: 20px;
   }
-  .mail{
-    font-size: 35px;
-  }
-}
-
-
-@media (min-width: 3440px) and (min-height: 1440px) {
-  .presentation {
-    left: 37%;
-    margin-top:45rem;
-    line-height: 120%;
-  }
-  h1{
-    font-size: 90px;
-  }
-  h2, h3{
-    font-size: 50px;
-  }
-  p{
-    font-size: 60px;
-  }
-  .mail{
-    font-size: 45px;
+  .mail {
+    font-size: 10px;
   }
 }
-
-
-
-@media (min-width: 3840px) and (min-height: 2160px) {
-  .presentation {
-    left: 35%;
-    margin-top:65rem;
-    line-height: 150%;
-  }
-  h1{
-    font-size: 90px;
-  }
-  h2, h3{
-    font-size: 70px;
-  }
-  p{
-    font-size: 60px;
-  }
-  .mail{
-    font-size: 61px;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* iphone4 */
 
-@media (width: 320px) and (min-height: 480px) {
+@media (width: 320px) and (height: 480px) {
   .presentation {
     left: 25%;
-    margin-top:14rem;
+    margin-top: 13rem;
     line-height: 75%;
   }
-  h1{
+  h1 {
     font-size: 20px;
   }
-  h2, h3{
+  h2,
+  h3 {
     font-size: 15px;
   }
-  p{
+  p {
     font-size: 15px;
   }
-  .mail{
+  .mail {
+    font-size: 10px;
+  }
+}
+
+@media (width: 344px) and (height: 882px) {
+  .presentation {
+    left: 10%;
+    margin-top: 26rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2,
+  h3 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .mail {
     font-size: 10px;
   }
 }
 
 
+@media (width: 390px) and (height: 844px) {
+  .presentation {
+    left: 17%;
+    margin-top: 28rem;
+    line-height: 15%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+}
+
+@media (width: 360px) and (height: 640px) {
+  .presentation {
+    left: 15%;
+    margin-top: 18rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2,
+  h3 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .mail {
+    font-size: 10px;
+  }
+}
 
 
+@media (width: 412px) and (height: 823px) {
+  .presentation {
+    left: 15%;
+    margin-top: 25rem;
+    line-height: 40%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+}
+
+@media (width: 412px) and (height: 892px) {
+  .presentation {
+    left: 15%;
+    margin-top: 27rem;
+    line-height: 60%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2,
+  h3 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+}
+
+@media (width: 412px) and (height: 914px) {
+  .presentation {
+    left: 15%;
+    margin-top: 30rem;
+    line-height: 51%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2,
+  h3 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+}
+
+
+
+@media (width: 430px) and (height: 932px) {
+  .presentation {
+    left: 15%;
+    margin-top: 32rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+@media (width: 540px) and (height: 720px) {
+  .presentation {
+    left: 20%;
+    margin-top: 20rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+}
+
+@media (width: 600px) and (height: 1024px) {
+  .presentation {
+    left: 10%;
+    margin-top: 30rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  h2,
+  h3 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 40px;
+  }
+  .mail {
+    font-size: 20px;
+  }
+}
+
+
+@media (width: 768px) and (height: 1024px) {
+  .presentation {
+    left: 29%;
+    margin-top: 29rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2,
+  h3 {
+    font-size: 35px;
+  }
+  p {
+    font-size: 35px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+}
+
+@media (width: 820px) and (height: 1180px) {
+  .presentation {
+    left: 23%;
+    margin-top: 35rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  h2,
+  h3 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 40px;
+  }
+  .mail {
+    font-size: 25px;
+  }
+}
+
+@media (width: 853px) and (height: 1280px) {
+  .presentation {
+    left: 23%;
+    margin-top: 45rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  h2,
+  h3 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 40px;
+  }
+  .mail {
+    font-size: 25px;
+  }
+}
+
+@media (width: 912px) and (height: 1368px) {
+  .presentation {
+    left: 23%;
+    margin-top: 45rem;
+    line-height: 95%;
+  }
+  h1 {
+    font-size: 55px;
+  }
+  h2,
+  h3 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 40px;
+  }
+  .mail {
+    font-size: 30px;
+  }
+}
+
+@media (width: 1280px) and (height: 1024px) {
+  .presentation {
+    left: 27%;
+    margin-top: 30rem;
+    line-height: 19%;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2,
+  h3 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 50px;
+  }
+  .mail {
+    font-size: 30px;
+  }
+}
+
+@media (width: 1366px) and (height: 900px) {
+  .presentation {
+    left: 37%;
+    margin-top: 24rem;
+    line-height: 49%;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .mail {
+    font-size: 20px;
+  }
+}
+
+
+@media (width: 1366px) and (height: 768px) {
+  .presentation {
+    left: 37%;
+    margin-top: 24rem;
+    line-height: 49%;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .mail {
+    font-size: 20px;
+  }
+}
+
+@media (width: 1600px) and (height: 900px) {
+  .presentation {
+    left: 39%;
+    margin-top: 29rem;
+    line-height: 49%;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .mail {
+    font-size: 20px;
+  }
+}
+
+@media (width: 1920px) and (height: 1080px) {
+  .presentation {
+    left: 37%;
+    margin-top: 34rem;
+    line-height: 89%;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2,
+  h3 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 45px;
+  }
+  .mail {
+    font-size: 25px;
+  }
+}
+
+@media (width: 1920px) and (height: 1200px) {
+  .presentation {
+    left: 37%;
+    margin-top: 40rem;
+    line-height: 89%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h2,
+  h3 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 45px;
+  }
+  .mail {
+    font-size: 25px;
+  }
+}
+
+@media (width: 2560px) and (height: 1440px) {
+  .presentation {
+    left: 37%;
+    margin-top: 50rem;
+    line-height: 100%;
+  }
+  h1 {
+    font-size: 85px;
+  }
+  h2,
+  h3 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 45px;
+  }
+  .mail {
+    font-size: 35px;
+  }
+}
+
+@media (width: 3440px) and (height: 1440px) {
+  .presentation {
+    left: 37%;
+    margin-top: 45rem;
+    line-height: 120%;
+  }
+  h1 {
+    font-size: 90px;
+  }
+  h2,
+  h3 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 60px;
+  }
+  .mail {
+    font-size: 45px;
+  }
+}
+
+@media (width: 3840px) and (height: 2160px) {
+  .presentation {
+    left: 35%;
+    margin-top: 65rem;
+    line-height: 150%;
+  }
+  h1 {
+    font-size: 90px;
+  }
+  h2,
+  h3 {
+    font-size: 70px;
+  }
+  p {
+    font-size: 60px;
+  }
+  .mail {
+    font-size: 61px;
+  }
+}
+
+
+@media (width: 1024px) and (height: 600px) {
+  .presentation {
+    left: 38%;
+    margin-top:17rem;
+    line-height: 75%;
+  }
+  h1{
+    font-size: 35px;
+  }
+  h2, h3{
+    font-size: 20px;
+  }
+  p{
+    font-size: 20px;
+  }
+  .mail{
+    font-size: 15px;
+  }
+}
+
+
+@media (width: 1024px) and (height: 1366px) {
+  .presentation {
+    left: 10%;
+    margin-top: 50rem;
+    line-height: 75%;
+  }
+   h2, h1 {
+    font-size: 75px;
+  }
+ 
+ 
+  p {
+    font-size: 40px;
+  }
+  .mail {
+    font-size: 20px;
+  }
+}
+
+
+
+
+@media (width: 375px) and (height: 667px) {
+  .presentation {
+    left: 8%;
+    margin-top: 20rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2,
+ 
+  p {
+    font-size: 20px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+}
+
+
+
+@media (width: 414px) and (height: 896px) {
+  .presentation {
+    left: 20%;
+    margin-top: 25rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2,
+
+  p {
+    font-size: 20px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+}
+
+
+@media (width: 414px) and (height: 736px) {
+  .presentation {
+    left: 17%;
+    margin-top: 23rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2,
+
+  p {
+    font-size: 20px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+}
+
+@media (width: 640px) and (height: 360px) {
+  .presentation {
+    left: 35%;
+    margin-top: 10rem;
+    line-height: 25%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2,
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .mail {
+    font-size: 10px;
+  }
+}
+
+/* TODO NE FONCTIONNE PAS*/
+@media (width: 712px) and (height: 1138px) {
+  .presentation {
+    left: 12%;
+    margin-top: 10rem;
+    line-height: 7%;
+  }
+  h1 {
+    font-size: 15px;
+  }
+  h2,
+  h3 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .mail {
+    font-size: 15px;
+  }
+}
+
+
+
+
+
+@media (width: 1280px) and (height: 800px) {
+  .presentation {
+    left: 33%;
+    margin-top: 25rem;
+    line-height: 75%;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 30px;
+  }
+  .mail {
+    font-size: 25px;
+  }
+}
 
 /* FIN MEDIA QUERIES DANS LE CADRE  */
 /* FIN HEADER et BACKGROUND IMAGE */

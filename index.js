@@ -1,5 +1,3 @@
-
-
 require('dotenv').config();
 
 // Import des dépendances tierses
@@ -19,6 +17,8 @@ app.set('views', path.join(__dirname, 'app/views'));
 
 // Configure routes
 app.use(router);
+
+// app.get('/', (req, res) => { res.sendFile(path.join(__dirname, 'public', 'index.html')); });
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
